@@ -26,8 +26,6 @@
       <div class="row text-center">
         <div class="col-md-4"></div>
         <div class="col-md-4">
-        <h4>Total Training Data Instances sd: <span class="badge">{{ target }}</span></a></h4>
-
           {% if (predicted == "Very Weak Password") %}
                 <h3><div class="label label-danger">{{ predicted }}</div></h3>
                 <p>It would take: {{ time_to_crack }} to crack this password</p>
