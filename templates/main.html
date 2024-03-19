@@ -39,8 +39,8 @@
           <h3><div class="alert alert-warning" style="border: none;background-color: rgb(244, 240, 234);">{{ predicted }}</div></h3>
                 <p>Time to crack this password:</p><br>
                 <p><strong>{{ time_to_crack }}</strong></p>
-                <p><b>Review:</b>Oh dear your, using this password is like leaving your front door wide open. <br>
-                Your password is Very week because it only contains 8 or less characters </p>
+                <p><b>Review:</b>passwords should include a minimum of 8 characters, comprising at least one letter, one number, and one special character. <br>
+                </p>
        {% endif %}
 
           {% if (predicted == "Weak Password") %}
